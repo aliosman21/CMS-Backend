@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 const cors = require("cors");
-const loginRoute = require("./routes/loginRoute");
+const loginRoute = require("./Components/Users/loginRoute");
 
 //const <route name> = require("route path")
 
